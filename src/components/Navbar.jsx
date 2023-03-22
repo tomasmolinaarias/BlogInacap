@@ -10,6 +10,9 @@ export const Navbar = () => {
         <li>
           <a href="/semetres">Semetres</a>
         </li>
+        <li>
+          <a href="/Horario">Horario</a>
+        </li>
       </ul>
     </div>
   );

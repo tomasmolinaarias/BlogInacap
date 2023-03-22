@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Horario } from "./components/Horario";
 import { Navbar } from "./components/Navbar";
 import { Semestres } from "./components/Semestres";
 import { Home } from "./pages/Home";
@@ -32,6 +33,7 @@ function App() {
           path="/FundamentosDeHardwareySofware"
           element={<FundamentosDeHyS />}
         />
+        <Route path="/Horario" element={<Horario />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
